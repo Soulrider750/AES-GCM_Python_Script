@@ -3,7 +3,7 @@
 A simple python script for encrypting and decrypting files with **AES-GCM** using the `cryptography` library.
 
 This tool uses a password to derive a 256-bit key with **PBKDF2-HMAC-SHA256**, then decrypts file contents using **AES-GCM**. 
-It also displays the derived key, IV, and salt in the terminal during bothe encryption and decryption. This script supports encryption with a random salt by default, or without a salt by using the `--nosalt` option.
+It also displays the derived key, IV, and salt in the terminal during both encryption and decryption. This script supports encryption with a random salt by default, or without a salt by using the `--nosalt` option.
 
 ## Features ##
 
@@ -16,7 +16,7 @@ It also displays the derived key, IV, and salt in the terminal during bothe encr
 - Displays:
   - Output file name
   - Derived key
-  - IV
+  - IV/nonce
   - Salt status
 
 ## Requirements ##
@@ -114,7 +114,7 @@ The ecrypted output file contains:
 
 ## Security Notes ##
 
-This project is intended a simple educational file encryption tool.
+This project is intended to be a simple educational file encryption tool.
 
 A few important notes:
 
