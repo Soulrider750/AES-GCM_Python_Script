@@ -104,7 +104,7 @@ def decrypt_file(input_file, output_file, password):
 
     data = open(input_file, "rb").read()
 
-    # The first byte tells us whther a salt was stored during encryption.
+    # The first byte tells us whether a salt was stored during encryption.
     # pos tracks where we are while parsing the encrypted file structure.
 
     use_salt = data[0] == 1
