@@ -1,6 +1,6 @@
 ## AES-GCM File Encryptor / Decryptor ##
 
-A simple python script for encrypting and decrypting files with **AES-GCM** using the `cryptography` library.
+A simple Python script created by me for encrypting and decrypting files with **AES-GCM** using the `cryptography` library.
 
 This tool uses a password to derive a 256-bit key with **PBKDF2-HMAC-SHA256**, then decrypts file contents using **AES-GCM**. 
 It also displays the derived key, IV, and salt in the terminal during both encryption and decryption. This script supports encryption with a random salt by default, or without a salt by using the `--nosalt` option.
