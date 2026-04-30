@@ -133,3 +133,11 @@ aes_gcm.py
 ## Disclaimer ##
 
 This project is for educational and demonstration purposes. It should not be treated as a production-ready utility without additional hardening, validation, and security review.
+
+## Author
+
+Andrew Edwards
+
+```text
+Soulrider750
+```
