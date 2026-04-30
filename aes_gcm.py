@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Author: Andrew Edwards
 # Simple AES-GCM file encryption/decryption tool.
 # The user provides a password, which is converted into an AES-256 key using PBKDF2.
 # The encrypted file stores a small header containing the salt flag, optional salt, and ciphertext.
